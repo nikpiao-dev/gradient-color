@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 5em;
+    margin: auto 0;
+    background: linear-gradient(to left, hsl(181, 55%, 71%), hsl(222, 91%, 69%));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    font: 600 3.5em 'Apple Chancery', sans-serif;
+    color: rgba(0, 0, 0, .7);
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    padding: 0.125em;
+}
+
+h2 
+{
+    font: 900 2.5em  'Bradley Hand', sans-serif;
+    color: rgba(0,0,0,.7);
+    text-transform: lowercase;
+    padding: 0.4em;
+    letter-spacing: 0.5em;
+}
